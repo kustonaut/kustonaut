@@ -6,6 +6,8 @@ Build → prototype → eval → production · Hands-on with RAG, agents, triage
 
 I build AI agents, triage pipelines, and analytics engines for real workflows — then open-source them.
 
+**🌐 [kustonaut.github.io/portfolio](https://kustonaut.github.io/portfolio)** — live demos, architecture deep-dives, and everything I ship.
+
 ```
 Build   → AI agents, eval systems, PM tooling
 Think   → Rules-first → LLM-fallback → eval → iterate
