@@ -29,6 +29,8 @@ I own the **Add-ins & Copilot extensibility platform** in Excel — the surface 
 | [**brain-os**](https://github.com/kustonaut/brain-os) | AI-powered daily OS for PMs — 22 Copilot skills, daily intelligence pipeline, Command Center dashboard | Local-first, config-driven. Every PM tool should be a VS Code skill, not a SaaS subscription. | Multi-model routing (GPT-4o for classification, Claude for synthesis), cross-PM onboarding wizard |
 | [**issue-sentinel**](https://github.com/kustonaut/issue-sentinel) | AI issue triage — classify, prioritize, route. Zero manual effort. | Rules-first catches 60% at zero cost. LLM handles the remaining 35%. Eval suite tracks accuracy over time. | Fine-tuned classifier to push rules-first coverage to 80%, A/B eval framework for prompt variants |
 | [**github-issue-analytics**](https://github.com/kustonaut/github-issue-analytics) | 13-metric scorecard from thousands of issues — fix rate, DSAT proxy, SHS, area heatmaps | Because at scale, you need data — not opinions. ETL → classify → score → dashboard. | Streaming ingestion for real-time alerts, anomaly detection on metric trends |
+| [**llm-eval-kit**](https://github.com/kustonaut/llm-eval-kit) | 10 quality checks + 3 LLM judges + multi-model comparison. Zero API keys for scoring. | Tier 1 (rule-based) needs zero deps. Tier 2 (LLM judge) is opt-in. 43 tests. | Semantic similarity checks, CI/CD GitHub Action, pytest plugin |
+| [**pm-signals**](https://github.com/kustonaut/pm-signals) | Multi-source signal aggregation — email, GitHub, RSS, files → daily intelligence brief | Pluggable fetchers, keyword routing, sentiment + urgency scoring, zero LLM for triage. | Production MCP integration, calendar fetcher, Teams connector |
 
 > Each repo follows the same pattern: **Problem → Architecture → Why this approach → Tradeoffs → Demo → What I'd improve.**
 
@@ -100,7 +102,7 @@ Issue arrives
   </tr>
 </table>
 
-> 🎮 **Live demos:** [Brain OS](https://kustonaut.github.io/brain-os) · [Issue Sentinel](https://kustonaut.github.io/issue-sentinel) · [GitHub Issue Analytics](https://kustonaut.github.io/github-issue-analytics)
+> 🎮 **Live demos:** [Brain OS](https://kustonaut.github.io/brain-os) · [Issue Sentinel](https://kustonaut.github.io/issue-sentinel) · [GitHub Issue Analytics](https://kustonaut.github.io/github-issue-analytics) · [LLM Eval Kit](https://kustonaut.github.io/llm-eval-kit)
 
 ---
 
@@ -114,5 +116,5 @@ Issue arrives
 | 🤖 **Copilot skills** | 22 production-grade PM skills |
 | ⚙️ **Automations** | 50+ daily pipeline scripts |
 | ⭐ **365daysofADX** | 37 stars — 365-day public KQL challenge |
-| 🧪 **Test coverage** | 23/23 tests passing across all repos |
+| 🧪 **Test coverage** | 43+ tests passing across all repos |
 
